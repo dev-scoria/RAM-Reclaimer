@@ -91,8 +91,6 @@ The **STATUS** window displays:
 
 The **LOG** window displays program events (startup, trim results, errors).
 
-The **LOG** window displays program events (startup, trim results, errors).
-
 #### Command Line (ramc.exe)
 
 ```bash
