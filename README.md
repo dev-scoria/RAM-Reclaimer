@@ -119,13 +119,9 @@ Settings are stored in:
 ### Roadmap
 
 - Scheduled automatic cleanup
-
 - Smart cleanup excluding critical processes
-
 - Selective cleanup by process list
-
 - Statistics and memory usage graphs
-
 - File-based logging system
 
 ### Contributing
@@ -133,13 +129,9 @@ Settings are stored in:
 **The project is open to suggestions and improvements. To contribute:**
 
    - Fork the repository
-
    - Create a feature branch (git checkout -b feature/amazing-feature)
-
    - Commit your changes (git commit -m 'Add some amazing feature')
-
    - Push to the branch (git push origin feature/amazing-feature)
-
    - Open a Pull Request
 
 ### License
