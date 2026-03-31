@@ -70,36 +70,37 @@ cmake --build . --config Release
 
 Compiled files will appear in the **build/Release/** folder.
 
-### Usage
+## Usage
 
-#### Graphical Interface (ramc_gui.exe)
+### Graphical Interface (ramc_gui.exe)
 
-Launch ramc_gui.exe. The main window provides the following actions:
+Launch `ramc_gui.exe`. The main window provides the following actions:
 
-Button	         Description
-Refresh	         Update memory status information
-Trim (self)    	 Trim working set of RAM Reclaimer only
-Trim (all)	     Trim working sets of all accessible processes
-Settings	       Configure theme, language, auto-refresh interval
-Elevate	         Restart with administrator privileges (required to trim other processes)
+| Button | Description |
+|--------|-------------|
+| **Refresh** | Update memory status information |
+| **Trim (self)** | Trim working set of RAM Reclaimer only |
+| **Trim (all)** | Trim working sets of all accessible processes |
+| **Settings** | Configure theme, language, auto-refresh interval |
+| **Elevate** | Restart with administrator privileges (required to trim other processes) |
 
 The **STATUS** window displays:
+- Total and available physical RAM
+- Total and available pagefile size
+- Current memory load percentage
 
-   - Total and available physical RAM
-
-   - Total and available pagefile size
-
-   - Current memory load percentage
+The **LOG** window displays program events (startup, trim results, errors).
 
 The **LOG** window displays program events (startup, trim results, errors).
 
 #### Command Line (ramc.exe)
 
+```bash
 ramc status                # Display current memory status
 ramc clean                 # Trim working set of the current process
 ramc clean --all           # Trim working sets of all accessible processes
 ramc help                  # Display help
-
+```
 *Note: Running with administrator privileges is recommended for trimming processes owned by other users.*
 
 ### Configuration
